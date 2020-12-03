@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const port = 8000;
 
-const { readDataFile } = require("./middleware");
+const { readDataFile } = require("./utility");
 
 app.use(morgan("common"));
 
